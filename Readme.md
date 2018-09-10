@@ -5,7 +5,7 @@
 
 This program requires **C++ 11** and the following C library installed:
 
--[GSL](https://www.gnu.org/software/gsl/) - An scientific GNU library.
+- [GSL](https://www.gnu.org/software/gsl/) : Scientific GNU library.
 
 
 ## Inputs.
@@ -56,9 +56,9 @@ Given a simple ODE:
         
 - Utilized different implemented method: forward euler and runge katta(rk4, rkf45, rk8pd). 
 - Verification based on error bounds with true analytical solution.
-- Convergence rate for the 4 methods: 1st order convergence for forward euler. And fast convergence for 3 runge katta methods.<br />
+- Convergence rate for all methods: 1st order convergence for forward euler. And fast convergence(error within machine precision) for 3 runge katta methods.<br />
 
-<img align="left" width="460" height="300" src="/doc/convergence_euler.png"> <img align="right" width="460" height="300" src="/doc/convergence_rk.png">
+<img align="left" width="300" height="300" src="/doc/convergence_euler.png"> <img align="right" width="300" height="300" src="/doc/convergence_rk.png">
 
 ### Test2:
 
@@ -87,6 +87,8 @@ The following commands will both run the simple test case.
         make check
         make test
 
+
+<p align="center">==========================================================================================</p>
 
 # <p align="center"> Enjoy!:smiley: </p>
 
