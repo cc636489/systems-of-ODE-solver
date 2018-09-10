@@ -59,7 +59,7 @@ Given a simple ODE:
 - Convergence rate for all methods: 1st order convergence for forward euler. And fast convergence(error within machine precision) for 3 runge katta methods.
 
 <p align="center">
-| <img align="left" width="460" height="300" src="/doc/convergence_euler.png"> | <img align="right" width="460" height="300" src="/doc/convergence_rk.png"> |
+<img width="420" height="300" src="/doc/convergence_euler.png"> <img width="420" height="300" src="/doc/convergence_rk.png">
 </p>
 
 
