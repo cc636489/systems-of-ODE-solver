@@ -29,7 +29,7 @@ Two input files `input1.dat` & `input2.dat` are given in root directory.
 * column1: time stamp.
 * column2~column(nvar+1): time series of unknown[i] (i = 1 to nvar).
 
-One output file `output.dat` is given in `_verification/` directory.
+One output file `output.dat` is given in root directory.
 
 
 ## Execution.
