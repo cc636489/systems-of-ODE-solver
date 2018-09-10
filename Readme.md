@@ -1,5 +1,5 @@
 
-# System of ODEs solver.
+# Program for solving system of ODEs.
 
 This is a C++ solution to solve system of ODEs.
 
@@ -16,10 +16,12 @@ This program requires **C++ 11** and the following C library installed:
 * line2: double `vector(nvar)`. ==> initial condition. 
 * line3: double `matrix[nvar][nvar]`. ==> matrix entry enter.
 * line4: int `nsolver`. ==> option of solvers.
+
         1==explicit euler.
         2==rk4.
         3==rk45.
         4==rk8.
+
 * line5: double `time[3]` ==> time horizon[Tstart, Tend, deltaT].
 
 Two input files `input1.dat` & `input2.dat` are given in root directory.
@@ -99,7 +101,7 @@ The following commands will both run the simple test case.
         make test
 
 
-<p align="center">==========================================================================================</p>
+<p align="center">=========================================================================================</p>
 
 # <p align="center"> Enjoy!:smiley: </p>
 
