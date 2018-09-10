@@ -5,7 +5,7 @@
 
 This program requires **C++ 11** and the following C library installed:
 
--[GSL](https://www.gnu.org/software/gsl/)
+-[GSL](https://www.gnu.org/software/gsl/) - An scientific GNU library.
 
 
 ## Inputs.
@@ -56,21 +56,29 @@ Given a simple ODE:
         
 - Utilized different implemented method: forward euler and runge katta(rk4, rkf45, rk8pd). 
 - Verification based on error bounds with true analytical solution.
-- Convergence rate for the 4 methods: 1st order convergence for forward euler. And fast convergence for 3 runge katta methods.
-<img src="/doc/convergence_euler.png"> <img src="/doc/convergence_rk.png">
+- Convergence rate for the 4 methods: 1st order convergence for forward euler. And fast convergence for 3 runge katta methods.<br />
+
+<img align="left" width="460" height="300" src="/doc/convergence_euler.png"> <img align="right" width="460" height="300" src="/doc/convergence_rk.png">
 
 ### Test2:
 
 If you want to know the trajectory x(t) of the particle shown below, which is governed by a set of three second order differ-ential equations:
+
+<p align="center">
 <img src="/doc/ode_1.png">
+</p>
+
 where ω and τ are constants. An initial value problem of this type needs 3×2 = 6 initial conditions. These are given as the initial position x0= (x0,y0,z0) and the initial velocity V0 = (u0,v0,w0) of the particle.
 
 In order to solve the equations above numerically, they have to be rewritten as a set of six first order differential equations:
+<p align="center">
 <img src="/doc/ode_2.png">
+</p>
 
 Here is the final trajectory of x(t) given by this program:
+<p align="center">
 <img src="/doc/ODE_trajectory.png">
-
+</p>
 
 ### Run tests:
 
@@ -80,7 +88,6 @@ The following commands will both run the simple test case.
         make test
 
 
-# Enjoy!
-
+# <p align="center"> Enjoy!:smiley: </p>
 
 
