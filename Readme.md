@@ -67,22 +67,18 @@ Given a simple ODE:
 
 If you want to know the trajectory x(t) of the particle shown below, which is governed by a set of three second order differ-ential equations:
 
-```
 <p align="center">
 <img src="/doc/ode_1.png">
 </p>
-```
 
 
 where ω and τ are constants. An initial value problem of this type needs 3×2 = 6 initial conditions. These are given as the initial position x0= (x0,y0,z0) and the initial velocity V0 = (u0,v0,w0) of the particle.
 
 In order to solve the equations above numerically, they have to be rewritten as a set of six first order differential equations:
 
-```
 <p align="center">
 <img src="/doc/ode_2.png">
 </p>
-```
 
 
 Here is the final trajectory of x(t) given by this program:
