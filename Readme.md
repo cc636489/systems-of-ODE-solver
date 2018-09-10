@@ -1,5 +1,7 @@
 
-# A C++ solution of solving system of ODEs
+# System of ODEs solver.
+
+This is a C++ solution to solve system of ODEs.
 
 ## Dependency:
 
@@ -20,11 +22,14 @@ This program requires **C++ 11** and the following C library installed:
         4==rk8.
 * line5: double `time[3]` ==> time horizon[Tstart, Tend, deltaT].
 
+Two input files `input1.dat` & `input2.dat` are given in root directory.
 
 ## Outputs.
 
 * column1: time stamp.
 * column2~column(nvar+1): time series of unknown[i] (i = 1 to nvar).
+
+One output file `output.dat` is given in `_verification/` directory.
 
 
 ## Execution.
