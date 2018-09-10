@@ -56,9 +56,12 @@ Given a simple ODE:
         
 - Utilized different implemented method: forward euler and runge katta(rk4, rkf45, rk8pd). 
 - Verification based on error bounds with true analytical solution.
-- Convergence rate for all methods: 1st order convergence for forward euler. And fast convergence(error within machine precision) for 3 runge katta methods.<br />
+- Convergence rate for all methods: 1st order convergence for forward euler. And fast convergence(error within machine precision) for 3 runge katta methods.
 
-<img align="left" width="300" height="300" src="/doc/convergence_euler.png"> <img align="right" width="300" height="300" src="/doc/convergence_rk.png">
+<p align="center">
+<img align="left" width="460" height="300" src="/doc/convergence_euler.png"> <img align="right" width="460" height="300" src="/doc/convergence_rk.png">
+</p>
+
 
 ### Test2:
 
