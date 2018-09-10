@@ -101,8 +101,4 @@ The following commands will both run the simple test case.
         make test
 
 
-<p align="center">=========================================================================================</p>
-
-# <p align="center"> Enjoy!:smiley: </p>
-
 
